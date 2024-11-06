@@ -1,4 +1,16 @@
 function singleNumber(nums) {
+  let num1 = nums[0]
+  let sum = 0
+  for (let i = 0; i < nums.length; i++) {
+    console.log(nums[i]);
+    if(nums[i] === nums[0]){
+      sum = nums[i];
+    }else{
+      nums[i];
+    }
+  }
+ return sum
+
   // Start coding here
 }
 

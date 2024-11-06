@@ -1,4 +1,14 @@
 function runningSum(arr) {
+  console.log(arr);
+  const sum = 0
+  const newarray = []
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i]
+    newarray.push(sum)
+    console.log(arr[i]);
+     
+  }
+  return sum
   //Start coding here
 }
 
